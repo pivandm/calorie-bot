@@ -14,6 +14,4 @@
 ## Деплой на render
 
 New - Web Service, репозиторий, runtime Docker. В Environment добавить `BOT_TOKEN`,
-`OWM_API_KEY`, `OPENROUTER_API_KEY`, `OPENROUTER_MODEL`. Бот работает на long polling, но рядом поднимается
-маленький http-сервер на `PORT`, иначе render считает сервис упавшим. Команды пользователей
-видно в логах сервиса.
+`OWM_API_KEY`, `OPENROUTER_API_KEY`, `OPENROUTER_MODEL`
